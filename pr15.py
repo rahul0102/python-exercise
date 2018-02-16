@@ -1,0 +1,5 @@
+inStr = input("Input sentense: ")
+list1 = inStr.split(" ")
+list1.reverse()
+outStr = ' '.join(list1)
+print(outStr)
